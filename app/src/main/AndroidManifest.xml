@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".page1" />
+        <activity android:name=".menucatagories" />
     </application>
 
 </manifest>
