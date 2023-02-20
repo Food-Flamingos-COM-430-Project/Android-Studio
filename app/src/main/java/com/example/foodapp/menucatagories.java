@@ -16,9 +16,9 @@ public class menucatagories extends Activity {
         setContentView(R.layout.menucatagories);
     }
     private void onClick(View view){
-        boolean italian = true;
-        if (italian){
-            italian = true;
+        boolean Italian = true;
+        if (Italian){
+            Italian = true;
             btnSubmit.setText("Italian");
             startActivity(new Intent(menucatagories.this,page1.class));
         }
