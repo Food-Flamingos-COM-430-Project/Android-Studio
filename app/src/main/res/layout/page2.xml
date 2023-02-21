@@ -8,9 +8,10 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnSubmit5"
+        android:id="@+id/btnSubmit9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
         android:background="@drawable/round_shape"
         android:text="Quesadilla"
         android:textColor="@android:color/white"
@@ -21,75 +22,63 @@
         app:layout_constraintVertical_bias="0.142" />
 
     <Button
-        android:id="@+id/btnSubmit4"
+        android:id="@+id/btnSubmit10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
         android:background="@drawable/round_shape"
         android:text="Hot Dog Sliders"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnSubmit9"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/btnSubmit9"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubmit9"
         app:layout_constraintVertical_bias="0.384" />
 
     <Button
-        android:id="@+id/btnSubmit3"
+        android:id="@+id/btnSubmit11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
         android:background="@drawable/round_shape"
         android:text="Mac and Cheese"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnSubmit10"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnSubmit10"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubmit10"
         app:layout_constraintVertical_bias="0.604" />
 
     <Button
-        android:id="@+id/btnSubmit2"
+        android:id="@+id/btnSubmit12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
         android:background="@drawable/round_shape"
         android:text="Turkey Jambalaya"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnSubmit11"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="@+id/btnSubmit11"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubmit11"
         app:layout_constraintVertical_bias="0.850" />
 
     <Button
-        android:id="@+id/btnSubmit"
+        android:id="@+id/btnSubmit13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
         android:background="@drawable/round_shape"
         android:text="Pigs in a Blanket"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777" />
-
-    <Button
-        android:id="@+id/btnReturn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/ic_menu_revert"
-        android:rotation="0"
-        android:rotationX="0"
-        android:rotationY="0"
-        android:text="Return"
-        android:textColor="@android:color/black"
-        app:iconTint="@color/white1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.018"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        app:rippleColor="@color/white1"
-        app:toggleCheckedStateOnClick="false" />
+        app:layout_constraintEnd_toEndOf="@+id/btnSubmit12"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnSubmit12"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubmit12"
+        app:layout_constraintVertical_bias="0.663" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".page1" />
         <activity android:name=".menucatagories" />
+        <activity android:name=".page2" />
     </application>
 
 </manifest>
