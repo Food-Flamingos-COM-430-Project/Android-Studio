@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="264dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="588dp"
+        android:text="Hot Dog Sliders"
+        android:textAlignment="center"
+        android:textColor="@color/white1"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="352dp"
+        android:text="12 hot dogs"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="532dp"
+        android:text="Ingredients"
+        android:textAllCaps="false"
+        android:textColor="@color/white1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="468dp"
+        android:text="1/4 teaspoon salt"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="80dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginBottom="440dp"
+        android:text="Sugar: 5g"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="488dp"
+        android:text="2 tablespoons honey"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginBottom="508dp"
+        android:text="Calories: 146"
+        android:textAllCaps="false"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="80dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginBottom="484dp"
+        android:text="Carbs: 15g"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="424dp"
+        android:text="1 cup cubed peeled mango (1/2 inch)"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="404dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="148dp"
+        android:text="Step 3. Place hot dogs in buns; cut each crosswise in half. Serve with fruit salsa."
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="512dp"
+        android:text="3 tablespoons lime juice"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="444dp"
+        android:text="1 cup cubed fresh pineapple (1/2 inch)"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="376dp"
+        android:text="2 tablespoons finely chopped sweet red pepper"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="80dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginBottom="464dp"
+        android:text="Proteins: 5g"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginBottom="528dp"
+        android:text="Nutrition"
+        android:textAllCaps="false"
+        android:textColor="@color/white1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="80dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginBottom="416dp"
+        android:text="Fiber: 1g"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="328dp"
+        android:text="12 hot dog buns, split"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="404dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="236dp"
+        android:text="Directions"
+        android:textColor="@color/white1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="404dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="208dp"
+        android:text="Step 1. In a small bowl, whisk lime juice, honey and salt until blended. Add pineapple, mango, onion and pepper; toss to coat."
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="404dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="176dp"
+        android:text="Step 2. Grill hot dogs, covered, over medium heat or broil 4 in. from heat until heated through, 7-9 minutes, turning occasionally."
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="260dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="400dp"
+        android:text="1/4 cup finely chopped red onion"
+        android:textColor="@color/white1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView17,textView10,textView9,textView12,textView15,textView13,textView16,textView8,textView11,textView14" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView6,textView5,textView3,textView4,textView2,textView7" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView6,textView3,textView5,textView4,textView2,textView7" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView17,textView10,textView9,textView12,textView15,textView13,textView16,textView8,textView11,textView14" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
