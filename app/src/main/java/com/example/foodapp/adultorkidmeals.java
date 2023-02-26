@@ -20,14 +20,14 @@ public class adultorkidmeals extends AppCompatActivity {
         Adults.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(adultorkidmeals.this,menucatagories.class));
+                startActivity(new Intent(adultorkidmeals.this,appitizerentreedessertadult.class));
             }
         });
         Button Kids = findViewById(R.id.btnKids);
         Kids.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(adultorkidmeals.this,menucatagories2.class));
+                startActivity(new Intent(adultorkidmeals.this,appitizerentreedessertadult.class));
             }
         });
 

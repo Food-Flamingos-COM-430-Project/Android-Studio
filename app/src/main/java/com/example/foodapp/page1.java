@@ -19,7 +19,7 @@ public class page1 extends AppCompatActivity {
         Button Return = findViewById(R.id.btnReturn);
         Return.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(page1.this, menucatagories.class));
+                startActivity(new Intent(page1.this, menucatagoriesadult.class));
             }
         });
     }
