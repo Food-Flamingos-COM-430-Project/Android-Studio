@@ -19,7 +19,7 @@ public class page2 extends AppCompatActivity {
         Button Return = findViewById(R.id.btnReturn);
         Return.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(page2.this, menucatagories.class));
+                startActivity(new Intent(page2.this, menucatagorieskids.class));
             }
         });
         Button HotDogSliders = findViewById(R.id.btnSubmit10);

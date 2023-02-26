@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class menucatagories2 extends AppCompatActivity {
+public class menucatagorieskids extends AppCompatActivity {
 private Button btnSubmit;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -18,13 +18,13 @@ private Button btnSubmit;
         Button Italian = findViewById(R.id.btnSubmit6);
         Italian.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(menucatagories2.this, page1.class));
+                startActivity(new Intent(menucatagorieskids.this, page1.class));
             }
         });
         Button Kids = findViewById(R.id.btnSubmit7);
         Kids.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(menucatagories2.this, page2.class));
+                startActivity(new Intent(menucatagorieskids.this, page2.class));
             }
 
         });
