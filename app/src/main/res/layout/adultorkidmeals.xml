@@ -9,40 +9,40 @@
 
     <Button
         android:id="@+id/btnAdults"
-        android:layout_width="403dp"
-        android:layout_height="236dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="416dp"
+        android:layout_width="371dp"
+        android:layout_height="252dp"
         android:text="Adults"
         android:textColor="@color/black"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
 
     <Button
         android:id="@+id/btnKids"
-        android:layout_width="403dp"
-        android:layout_height="236dp"
-        android:layout_marginBottom="96dp"
+        android:layout_width="371dp"
+        android:layout_height="252dp"
         android:text="Kids"
-        android:textSize="40dp"
         android:textColor="@color/black"
+        android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdults"
+        app:layout_constraintVertical_bias="0.594" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="190dp"
-        android:layout_marginBottom="349dp"
         android:text="OR"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/btnKids"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdults"
+        app:layout_constraintVertical_bias="0.521" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
