@@ -27,11 +27,11 @@
         <activity android:name=".menucatagoriesadult" />
         <activity android:name=".appitizersadult" />
         <activity android:name=".entreeadult" />
-        <activity android:name="dessertadult" />
+        <activity android:name=".dessertadult" />
         <activity android:name=".appitizerentreedessertkids" />
         <activity android:name=".appitizerskids" />
         <activity android:name=".entreekids" />
-        <activity android:name="dessertkids" />
+        <activity android:name=".dessertkids" />
         <activity android:name=".menucatagorieskids" />
         <activity android:name=".page1" />
         <activity android:name=".page2" />
