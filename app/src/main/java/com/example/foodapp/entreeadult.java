@@ -26,22 +26,22 @@ public class entreeadult extends AppCompatActivity {
         });
         Meal1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(entreeadult.this, appitizerentreedessertadult.class));
+                startActivity(new Intent(entreeadult.this, chicknoodsoupadult.class));
             }
         });
         Meal2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(entreeadult.this, appitizerentreedessertadult.class));
+                startActivity(new Intent(entreeadult.this, chickparmadult.class));
             }
         });
         Meal3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(entreeadult.this, appitizerentreedessertadult.class));
+                startActivity(new Intent(entreeadult.this, meatloafadult.class));
             }
         });
         Meal4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(entreeadult.this, appitizerentreedessertadult.class));
+                startActivity(new Intent(entreeadult.this, lasagnaadult.class));
             }
         });
     }

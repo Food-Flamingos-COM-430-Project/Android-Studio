@@ -12,7 +12,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodApp"
-        tools:targetApi="31">
+        tools:targetApi="31"
+        tools:ignore="ExtraText">
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -23,11 +24,26 @@
             </intent-filter>
         </activity>
         <activity android:name=".adultorkidmeals" />
+        // Adults
         <activity android:name=".appitizerentreedessertadult" />
         <activity android:name=".menucatagoriesadult" />
         <activity android:name=".appitizersadult" />
         <activity android:name=".entreeadult" />
         <activity android:name=".dessertadult" />
+        // Appitizer
+        <activity android:name=".creamytomatoadult" />
+        <activity android:name=".threebeanchiliadult" />
+        <activity android:name=".scallopsadult" />
+        // Entree
+        <activity android:name=".chickparmadult" />
+        <activity android:name=".lasagnaadult" />
+        <activity android:name=".meatloafadult" />
+        <activity android:name=".chicknoodsoupadult" />
+        // Desserts
+        <activity android:name=".strawpokecakeadult" />
+        <activity android:name=".cinrollpancakeadult" />
+        <activity android:name=".charmcheesecakeadult" />
+        // Kids
         <activity android:name=".appitizerentreedessertkids" />
         <activity android:name=".appitizerskids" />
         <activity android:name=".entreekids" />
