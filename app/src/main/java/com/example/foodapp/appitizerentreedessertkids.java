@@ -21,6 +21,7 @@ public class appitizerentreedessertkids extends AppCompatActivity {
         Button Entree = findViewById(R.id.btnMeal2);
         Button Dessert = findViewById(R.id.btnMeal3);
 
+        // creates buttons
         Return.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(appitizerentreedessertkids.this, adultorkidmeals.class));
