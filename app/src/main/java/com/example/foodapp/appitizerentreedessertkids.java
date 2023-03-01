@@ -29,7 +29,7 @@ public class appitizerentreedessertkids extends AppCompatActivity {
         Appitizer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(appitizerentreedessertkids.this,appitizerentreedessertkids.class));
+                startActivity(new Intent(appitizerentreedessertkids.this,appitizerskids.class));
             }
         });
         Entree.setOnClickListener(new View.OnClickListener() {
