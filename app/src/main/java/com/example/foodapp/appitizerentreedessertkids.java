@@ -29,19 +29,19 @@ public class appitizerentreedessertkids extends AppCompatActivity {
         Appitizer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(appitizerentreedessertkids.this,appitizersadult.class));
+                startActivity(new Intent(appitizerentreedessertkids.this,appitizerentreedessertkids.class));
             }
         });
         Entree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(appitizerentreedessertkids.this,entreeadult.class));
+                startActivity(new Intent(appitizerentreedessertkids.this,entreekids.class));
             }
         });
         Dessert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(appitizerentreedessertkids.this,dessertadult.class));
+                startActivity(new Intent(appitizerentreedessertkids.this,dessertkids.class));
             }
         });
 
