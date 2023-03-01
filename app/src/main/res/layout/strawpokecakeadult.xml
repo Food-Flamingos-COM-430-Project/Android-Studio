@@ -315,6 +315,7 @@
         android:id="@+id/textView44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
         android:text="Step 2. Whisk the flour, baking powder, baking soda and salt in a medium bowl; set aside. Whisk the buttermilk and vanilla in a spouted measuring cup; set aside."
         android:textColor="@color/white1"
         android:textSize="10sp"
@@ -323,7 +324,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView43"
-        app:layout_constraintVertical_bias="0.033" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView45"
@@ -336,7 +337,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/textView49"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
 
     <TextView
         android:id="@+id/textView46"

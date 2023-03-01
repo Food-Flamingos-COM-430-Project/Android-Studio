@@ -27,7 +27,7 @@ public class adultorkidmeals extends AppCompatActivity {
         Kids.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(adultorkidmeals.this,appitizerentreedessertadult.class));
+                startActivity(new Intent(adultorkidmeals.this,appitizerentreedessertkids.class));
             }
         });
 

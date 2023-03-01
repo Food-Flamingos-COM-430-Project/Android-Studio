@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,48 +8,41 @@
     android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="404dp"
-        android:layout_height="30dp"
-        android:text="Step 2. Grill hot dogs, covered, over medium heat or broil 4 in. from heat until heated through, 7-9 minutes, turning occasionally."
-        android:textColor="@color/white1"
-        android:textSize="12sp"
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_revert"
+        android:rotation="0"
+        android:rotationX="0"
+        android:text="Return"
+        android:textColor="@android:color/black"
+        app:iconTint="@color/white1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="3dp" />
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:rippleColor="@color/white1"
+        app:toggleCheckedStateOnClick="false"
+        tools:ignore="HardcodedText" />
     <TextView
         android:id="@+id/textView"
-        android:layout_width="321dp"
-        android:layout_height="119dp"
-        android:text="Hot Dog Sliders with Mango-Pineapple Salsa"
+        android:layout_width="343dp"
+        android:layout_height="126dp"
+        android:text="Fruit Kabobs with Cream Cheese Dip"
         android:textAlignment="center"
         android:textColor="@color/white1"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.063"
+        app:layout_constraintVertical_bias="0.062"
         tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="260dp"
-        android:layout_height="23dp"
-        android:layout_marginBottom="352dp"
-        android:text="12 hot dogs"
-        android:textColor="@color/white1"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView17"
@@ -64,14 +58,14 @@
         app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
+        app:layout_constraintVertical_bias="0.255" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="260dp"
         android:layout_height="23dp"
         android:layout_marginBottom="468dp"
-        android:text="1/4 teaspoon salt"
+        android:text="1/3 cup sour cream"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -86,7 +80,7 @@
         android:layout_width="80dp"
         android:layout_height="23dp"
         android:layout_marginBottom="440dp"
-        android:text="Sugar: 5g"
+        android:text="Sugar: 14g"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -101,12 +95,12 @@
         android:layout_width="260dp"
         android:layout_height="23dp"
         android:layout_marginBottom="488dp"
-        android:text="2 tablespoons honey"
+        android:text="1/3 cup confectioners' sugar"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         app:layout_constraintVertical_bias="0.0" />
@@ -116,7 +110,7 @@
         android:layout_width="80dp"
         android:layout_height="20dp"
         android:layout_marginBottom="508dp"
-        android:text="Calories: 146"
+        android:text="Calories: 184"
         android:textAllCaps="false"
         android:textColor="@color/white1"
         android:textSize="12sp"
@@ -132,7 +126,7 @@
         android:layout_width="80dp"
         android:layout_height="23dp"
         android:layout_marginBottom="484dp"
-        android:text="Carbs: 15g"
+        android:text="Carbs: 17g"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -147,7 +141,7 @@
         android:layout_width="260dp"
         android:layout_height="23dp"
         android:layout_marginBottom="424dp"
-        android:text="1 cup cubed peeled mango (1/2 inch)"
+        android:text="12 fresh strawberries, trimmed"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -158,23 +152,11 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView21"
-        android:layout_width="404dp"
-        android:layout_height="30dp"
-        android:text="Step 3. Place hot dogs in buns; cut each crosswise in half. Serve with fruit salsa."
-        android:textColor="@color/white1"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView23"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="3dp" />
-
-    <TextView
         android:id="@+id/textView8"
         android:layout_width="260dp"
         android:layout_height="23dp"
         android:layout_marginBottom="512dp"
-        android:text="3 tablespoons lime juice"
+        android:text="6 ounces cream cheese, softened"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -189,7 +171,7 @@
         android:layout_width="260dp"
         android:layout_height="23dp"
         android:layout_marginBottom="444dp"
-        android:text="1 cup cubed fresh pineapple (1/2 inch)"
+        android:text="1/4 teaspoon almond extract"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -204,7 +186,7 @@
         android:layout_width="260dp"
         android:layout_height="23dp"
         android:layout_marginBottom="376dp"
-        android:text="2 tablespoons finely chopped sweet red pepper"
+        android:text="12 fresh pineapple cubes (1 inch)"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -219,7 +201,7 @@
         android:layout_width="80dp"
         android:layout_height="23dp"
         android:layout_marginBottom="464dp"
-        android:text="Proteins: 5g"
+        android:text="Proteins: 3g"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -243,7 +225,7 @@
         app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
+        app:layout_constraintVertical_bias="0.255" />
 
     <TextView
         android:id="@+id/textView7"
@@ -260,20 +242,6 @@
         app:layout_constraintVertical_bias="0.002" />
 
     <TextView
-        android:id="@+id/textView16"
-        android:layout_width="260dp"
-        android:layout_height="23dp"
-        android:text="12 hot dog buns, split"
-        android:textColor="@color/white1"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
         android:id="@+id/textView20"
         android:layout_width="404dp"
         android:layout_height="30dp"
@@ -283,30 +251,30 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.69" />
+        app:layout_constraintVertical_bias="0.647" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="404dp"
-        android:layout_height="30dp"
-        android:layout_marginBottom="208dp"
-        android:text="Step 1. In a small bowl, whisk lime juice, honey and salt until blended. Add pineapple, mango, onion and pepper; toss to coat."
+        android:layout_height="59dp"
+        android:text="Step 1. In a small bowl, beat cream cheese, confectioners' sugar, sour cream and extract until smooth. Refrigerate until serving. On 6 wooden skewers, alternately thread strawberries, grapes and pineapple. Serve with dip."
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView20"
         app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="3dp" />
+        tools:layout_editor_absoluteX="4dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="260dp"
         android:layout_height="23dp"
         android:layout_marginBottom="400dp"
-        android:text="1/4 cup finely chopped red onion"
+        android:text="12 green grapes"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -320,7 +288,7 @@
         android:id="@+id/group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="textView17,textView10,textView9,textView12,textView15,textView13,textView16,textView8,textView11,textView14" />
+        app:constraint_referenced_ids="textView17,textView10,textView9,textView12,textView13,textView8,textView11,textView14" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/group2"
@@ -338,6 +306,6 @@
         android:id="@+id/group4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="textView17,textView10,textView9,textView12,textView15,textView13,textView16,textView8,textView11,textView14" />
+        app:constraint_referenced_ids="textView17,textView10,textView9,textView12,textView13,textView8,textView11,textView14" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
