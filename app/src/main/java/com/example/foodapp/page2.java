@@ -25,7 +25,7 @@ public class page2 extends AppCompatActivity {
         Button HotDogSliders = findViewById(R.id.btnSubmit10);
         HotDogSliders.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
-                startActivity(new Intent(page2.this,hotdogsliders.class));
+                startActivity(new Intent(page2.this,creamytomatoadult.class));
             }
         });
     }
