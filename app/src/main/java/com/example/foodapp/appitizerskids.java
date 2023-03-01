@@ -13,7 +13,7 @@ public class appitizerskids extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.appitizersadult);
+        setContentView(R.layout.appitizerskids);
         Button Return = findViewById(R.id.btnReturn);
         Button Meal1 = findViewById(R.id.btnMeal1);
         Button Meal2 = findViewById(R.id.btnMeal2);
