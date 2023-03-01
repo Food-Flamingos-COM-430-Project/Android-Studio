@@ -25,17 +25,17 @@ public class appitizerskids extends AppCompatActivity {
         });
         Meal1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(appitizerskids.this, creamytomatoadult.class));
+                startActivity(new Intent(appitizerskids.this, cheesyquesadillas.class));
             }
         });
         Meal2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(appitizerskids.this, scallopsadult.class));
+                startActivity(new Intent(appitizerskids.this, hotdogslidersmango.class));
             }
         });
         Meal3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                startActivity(new Intent(appitizerskids.this, threebeanchiliadult.class));
+                startActivity(new Intent(appitizerskids.this, momamiameatballs.class));
             }
         });
     }
