@@ -15,13 +15,12 @@ public class appitizerentreedessertkids extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.appitizerentredessertkids);
+        setContentView(R.layout.appitizerentredessertadult);
         Button Return = findViewById(R.id.btnReturn);
         Button Appitizer = findViewById(R.id.btnMeal);
         Button Entree = findViewById(R.id.btnMeal2);
         Button Dessert = findViewById(R.id.btnMeal3);
 
-        // creates buttons
         Return.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 startActivity(new Intent(appitizerentreedessertkids.this, adultorkidmeals.class));
@@ -30,19 +29,19 @@ public class appitizerentreedessertkids extends AppCompatActivity {
         Appitizer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(appitizerentreedessertkids.this,appitizerskids.class));
+                startActivity(new Intent(appitizerentreedessertkids.this,appitizersadult.class));
             }
         });
         Entree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(appitizerentreedessertkids.this,entreekids.class));
+                startActivity(new Intent(appitizerentreedessertkids.this,entreeadult.class));
             }
         });
         Dessert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(appitizerentreedessertkids.this,entreekids.class));
+                startActivity(new Intent(appitizerentreedessertkids.this,dessertadult.class));
             }
         });
 

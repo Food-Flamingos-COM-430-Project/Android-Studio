@@ -26,43 +26,28 @@
         <activity android:name=".adultorkidmeals" />
         // Adults
         <activity android:name=".appitizerentreedessertadult" />
-        // Appitizer
+        <activity android:name=".menucatagoriesadult" />
         <activity android:name=".appitizersadult" />
+        <activity android:name=".entreeadult" />
+        <activity android:name=".dessertadult" />
+        // Appitizer
         <activity android:name=".creamytomatoadult" />
         <activity android:name=".threebeanchiliadult" />
         <activity android:name=".scallopsadult" />
         // Entree
-        <activity android:name=".entreeadult" />
         <activity android:name=".chickparmadult" />
         <activity android:name=".lasagnaadult" />
         <activity android:name=".meatloafadult" />
         <activity android:name=".chicknoodsoupadult" />
         // Desserts
-        <activity android:name=".dessertadult" />
         <activity android:name=".strawpokecakeadult" />
         <activity android:name=".cinrollpancakeadult" />
         <activity android:name=".charmcheesecakeadult" />
         // Kids
         <activity android:name=".appitizerentreedessertkids" />
-        // Appetizers
         <activity android:name=".appitizerskids" />
-        <activity android:name=".cheesyquesadillas"/>
-        <activity android:name=".hotdogslidersmango"/>
-        <activity android:name=".momamiameatballs"/>
-        // Entree
         <activity android:name=".entreekids" />
-        <activity android:name=".macandcheesebites"/>
-        <activity android:name=".pigsinablanket"/>
-        <activity android:name=".corndogs"/>
-        <activity android:name=".turkeyjambalaya"/>
-        // Desserts
         <activity android:name=".dessertkids" />
-        <activity android:name=".bananasplitsmoothies"/>
-        <activity android:name=".fruitkabobs"/>
-        <activity android:name=".chocolatechippbandbananasandwich"/>
-
-        // test
-        <activity android:name=".menucatagoriesadult" />
         <activity android:name=".menucatagorieskids" />
         <activity android:name=".page1" />
         <activity android:name=".page2" />
