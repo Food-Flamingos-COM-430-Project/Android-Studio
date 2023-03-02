@@ -22,15 +22,16 @@ public class MainActivity extends AppCompatActivity {
     private TextView txtLoginInfo;
     private boolean isSigningUp = true;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //activity to create email, password, and username.
         edtEmail = findViewById(R.id.edtEmail);
         edtPassword = findViewById(R.id.edtPassword);
         edtUsername = findViewById(R.id.edtUsername);
-
+        //button to create new account
         btnSubmit = findViewById(R.id.btnSubmit);
 
         txtLoginInfo = findViewById(R.id.txtLoginInfo);
@@ -38,11 +39,12 @@ public class MainActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                //activity for logging into app. This also creates "Sorry, try again" when the wrong username or password is input.
                 if (edtEmail.getText().toString().isEmpty() || edtPassword.getText().toString().isEmpty()) {
                     if (isSigningUp && edtUsername.getText().toString().isEmpty()) {
                         Toast.makeText(MainActivity.this, "Sorry, try again", Toast.LENGTH_SHORT).show();
                         return;
+
                     }
                 }
                 if (isSigningUp) {
@@ -54,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         txtLoginInfo.setOnClickListener(new View.OnClickListener() {
+            //this allows the user to switch between logging in and creating an account
             @Override
             public void onClick(View view) {
                 if (isSigningUp) {
@@ -70,7 +73,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+    //we used firebase for storing our username and passwords. Our firebase account is managed by Nathan and noah.
+    //this is where the user creates their account.
+    //using toast allows the text "Signed up successfully" to be displayed.
     private void handleSignUp() {
         FirebaseAuth.getInstance().createUserWithEmailAndPassword(edtEmail.getText().toString(), edtPassword.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
@@ -83,7 +88,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+    //this allows the user to login using firebase.
+    //we use toast here as well to display "Logged in successfully".
     private void handleLogin(){
         FirebaseAuth.getInstance().signInWithEmailAndPassword(edtEmail.getText().toString(),edtPassword.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
