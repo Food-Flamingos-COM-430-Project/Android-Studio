@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //activity for logging into app. This also creates "Sorry, try again" when the wrong username or password is input.
+                //activity for logging into app. This uses toast to display "Sorry, try again" when the wrong username or password is input.
                 if (edtEmail.getText().toString().isEmpty() || edtPassword.getText().toString().isEmpty()) {
                     if (isSigningUp && edtUsername.getText().toString().isEmpty()) {
                         Toast.makeText(MainActivity.this, "Sorry, try again", Toast.LENGTH_SHORT).show();
