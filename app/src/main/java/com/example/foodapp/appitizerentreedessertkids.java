@@ -26,18 +26,21 @@ public class appitizerentreedessertkids extends AppCompatActivity {
                 startActivity(new Intent(appitizerentreedessertkids.this, adultorkidmeals.class));
             }
         });
+        //button to select appetizer for kids
         Appitizer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(appitizerentreedessertkids.this,appitizerskids.class));
             }
         });
+        //button to select entree for kids
         Entree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(appitizerentreedessertkids.this,entreekids.class));
             }
         });
+        //button to select dessert for kids
         Dessert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class turkeyjambalaya extends AppCompatActivity {
     private Button btnReturn;
-
+//button to choose turkey jambalaya
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

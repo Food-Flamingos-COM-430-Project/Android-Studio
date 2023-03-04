@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class scallopsadult extends AppCompatActivity {
     private Button btnReturn;
-
+//button to choose scallops
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

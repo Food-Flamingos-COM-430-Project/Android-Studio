@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class hotdogslidersmango extends AppCompatActivity {
     private Button btnReturn;
-
+//button to choose hot dog sliders
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

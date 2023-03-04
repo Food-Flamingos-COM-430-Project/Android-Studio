@@ -18,6 +18,7 @@ public class adultorkidmeals extends AppCompatActivity {
         setContentView(R.layout.adultorkidmeals);
         Button Adults = findViewById(R.id.btnAdults);
         Adults.setOnClickListener(new View.OnClickListener() {
+//this button selects the adult category
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(adultorkidmeals.this,appitizerentreedessertadult.class));
@@ -25,6 +26,7 @@ public class adultorkidmeals extends AppCompatActivity {
         });
         Button Kids = findViewById(R.id.btnKids);
         Kids.setOnClickListener(new View.OnClickListener() {
+//this button selects the kids category
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(adultorkidmeals.this,appitizerentreedessertkids.class));

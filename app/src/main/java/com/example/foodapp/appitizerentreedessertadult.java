@@ -11,7 +11,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class appitizerentreedessertadult extends AppCompatActivity {
     private Button btnMeal;
-
+//button return function
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -26,18 +26,21 @@ public class appitizerentreedessertadult extends AppCompatActivity {
                 startActivity(new Intent(appitizerentreedessertadult.this, adultorkidmeals.class));
             }
         });
+        //button to select appetizer for adults
         Appitizer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(appitizerentreedessertadult.this,appitizersadult.class));
             }
         });
+        //button to select entree for adults
         Entree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(appitizerentreedessertadult.this,entreeadult.class));
             }
         });
+        //button to select dessert for adults
         Dessert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
