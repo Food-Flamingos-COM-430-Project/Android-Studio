@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 3. Remove from heat and uncover. Add salt to taste. Ladle into bowls and top with green onion, cheddar cheese and a dollop of sour cream (skip sour cream and cheddar cheese for vegan version)."
         android:textColor="@color/white1"
@@ -363,7 +363,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -378,7 +378,7 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="405dp"
+        android:layout_width="375dp"
         android:layout_height="47dp"
         android:text="Step 1. Heat 1 tablespoon extra virgin olive oil in a large pot over medium heat. Stir in onion and bell pepper. Cook 4-5 minutes, until somewhat softened. Add garlic and cook one more minute, until fragrant."
         android:textColor="@color/white1"
@@ -392,17 +392,17 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 2. Stir in the kidney beans, black beans, pinto beans, tomato, corn, vegetable stock, salsa, cumin and cayenne pepper. Bring to a boil, lower to a simmer, cover and cook 25-30 minutes, stirring occasionally."
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.835" />
+        app:layout_constraintVertical_bias="0.831" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/group"

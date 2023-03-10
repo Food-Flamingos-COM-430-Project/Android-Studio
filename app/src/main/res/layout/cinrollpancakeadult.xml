@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="59dp"
         android:text="Step 3. Separate and unroll the cinnamon rolls. Reroll into a loose spiral so the batter can go between the layers of dough, securing the end with a toothpick. (Insert the toothpick sideways into the dough with enough sticking out for easy removal)."
         android:textColor="@color/white1"
@@ -322,7 +322,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -337,7 +337,7 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="405dp"
+        android:layout_width="375dp"
         android:layout_height="47dp"
         android:text="Step 1. reheat the oven to 200 degrees F. Set a baking sheet in the oven while it heats."
         android:textColor="@color/white1"
@@ -351,17 +351,17 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="404dp"
-        android:layout_height="66dp"
+        android:layout_width="375dp"
+        android:layout_height="76dp"
         android:text="Step 2. Whisk the flour, sugar, baking powder, cocoa powder and salt together in a large bowl. In another bowl, whisk together the eggs, then whisk in the milk, butter, food coloring and vanilla extract. Add the wet ingredients to the flour mixture and whisk just until a thick batter is formed."
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.835" />
+        app:layout_constraintVertical_bias="0.836" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/group"

@@ -195,7 +195,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -210,7 +210,7 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="405dp"
+        android:layout_width="375dp"
         android:layout_height="47dp"
         android:text="Step 1. Place the tortillas on a greased baking sheet. Combine the cheese and salsa; spread over half of each tortilla. Fold over."
         android:textColor="@color/white1"
@@ -224,7 +224,7 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 2. Broil 4 in. from the heat for 3 minutes on each side or until golden brown. Cut into wedges."
         android:textColor="@color/white1"

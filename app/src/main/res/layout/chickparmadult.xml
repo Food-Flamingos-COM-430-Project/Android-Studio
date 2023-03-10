@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView70"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 5. Serve: Immediately with tomato sauce on top and a sprinkle of basil for serving"
         android:textColor="@color/white1"
@@ -24,7 +24,7 @@
 
     <TextView
         android:id="@+id/textView69"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 4. Broil: Place chicken in a pan or sheet tray and top with mozzarella cheese. Broil on high until melted and bubbly."
         android:textColor="@color/white1"
@@ -38,7 +38,7 @@
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 3. Pan fry chicken: Heat oil in a large skillet. Add chicken two at a time to the skillet. Cook 2-3 minutes on each side or until golden grown and cooked all the way through."
         android:textColor="@color/white1"
@@ -264,7 +264,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -272,28 +272,26 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.538" />
+        app:layout_constraintVertical_bias="0.514" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="405dp"
+        android:layout_width="375dp"
         android:layout_height="47dp"
         android:text="Step 1. Slice chicken in half: Start by cutting chicken in half horizontally. Pound each piece until 1/2 inch thick. Sprinkle with salt and pepper."
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.593" />
+        app:layout_constraintVertical_bias="0.582" />
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="406dp"
+        android:layout_width="375dp"
         android:layout_height="106dp"
         android:text="Step 2. Add flour to a shallow dish, set aside. Add egg to a shallow bowl and whisk, set aside. Add breadcrumbs and Parmesan cheese to a shallow bowl and mix to combine. Starting with the flour and ending with breadcrumbs, dip the chicken into the flour, egg and Parmesan breadcrumbs. The best way to bread the chicken is to keep one hand for wet ingredients and one hand for dry. This helps from getting the dreaded breading hands."
         android:textColor="@color/white1"

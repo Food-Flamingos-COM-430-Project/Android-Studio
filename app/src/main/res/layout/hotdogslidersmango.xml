@@ -10,17 +10,17 @@
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 3. Place hot dogs in buns; cut each crosswise in half. Serve with fruit salsa."
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.927" />
+        app:layout_constraintVertical_bias="0.926" />
 
     <TextView
         android:id="@+id/textView61"
@@ -293,7 +293,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -308,7 +308,7 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="405dp"
+        android:layout_width="375dp"
         android:layout_height="47dp"
         android:text="Step 1. In a small bowl, whisk lime juice, honey and salt until blended. Add pineapple, mango, onion and pepper; toss to coat."
         android:textColor="@color/white1"
@@ -322,7 +322,7 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 2. Grill hot dogs, covered, over medium heat or broil 4 in. from heat until heated through, 7-9 minutes, turning occasionally."
         android:textColor="@color/white1"

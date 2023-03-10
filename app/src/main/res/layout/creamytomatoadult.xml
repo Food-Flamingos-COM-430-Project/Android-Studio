@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="32dp"
         android:text="Step 9. Add additional salt and pepper to taste and serve"
         android:textColor="@color/white1"
@@ -24,7 +24,7 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="32dp"
         android:text="Step 8. Add cream cheese and stir until melted"
         android:textColor="@color/white1"
@@ -38,7 +38,7 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="32dp"
         android:text="Step 7. Use a hand blender and blend smooth"
         android:textColor="@color/white1"
@@ -52,7 +52,7 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="32dp"
         android:text="Step 6. Cover pan and simmer for 30 minutes."
         android:textColor="@color/white1"
@@ -66,7 +66,7 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="32dp"
         android:text="Step 5. Bring soup to a boil and then reduce heat to simmer."
         android:textColor="@color/white1"
@@ -80,21 +80,21 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="32dp"
         android:text="Step 2. Add onion and garlic."
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597" />
+        app:layout_constraintVertical_bias="0.584" />
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 4. Add sun-dried tomatoes, canned tomatoes, chicken broth, sugar, salt, pepper, oregano, basil, and red pepper flakes."
         android:textColor="@color/white1"
@@ -356,9 +356,9 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="484dp"
-        android:layout_height="120dp"
-        android:text="Creamy Tomato Soup With Grilled Cheese Croutons"
+        android:layout_width="467dp"
+        android:layout_height="98dp"
+        android:text="Creamy Tomato Soup and Grilled Cheese Croutons"
         android:textAlignment="center"
         android:textColor="@color/white1"
         android:textSize="34sp"
@@ -405,7 +405,7 @@
         android:id="@+id/textView8"
         android:layout_width="306dp"
         android:layout_height="22dp"
-        android:text="1 Tbsp reserved oil from sun-dried tomatoes or olive oil"
+        android:text="1 Tbsp olive oil"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -433,7 +433,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -441,38 +441,38 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintHorizontal_bias="0.543"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515" />
+        app:layout_constraintVertical_bias="0.508" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="32dp"
         android:text="Step 1. Place oil in a large saucepan over medium heat."
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554" />
+        app:layout_constraintVertical_bias="0.544" />
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="404dp"
-        android:layout_height="22dp"
+        android:layout_width="376dp"
+        android:layout_height="33dp"
         android:text="Step 3. Cook for 3-4 minutes or until vegetables are tender, stirring often."
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintVertical_bias="0.623" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/group"

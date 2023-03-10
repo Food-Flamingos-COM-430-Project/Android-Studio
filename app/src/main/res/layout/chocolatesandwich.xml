@@ -237,7 +237,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -252,7 +252,7 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="405dp"
+        android:layout_width="375dp"
         android:layout_height="47dp"
         android:text="Step 1. Mix peanut butter, honey and cinnamon; stir in chocolate chips. Spread over bread. Layer 2 bread slices with banana slices; top with remaining bread. If desired, cut into shapes using cookie cutters."
         android:textColor="@color/white1"

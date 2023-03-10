@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 3. Bake until golden brown, 16-20 minutes. Serve with marinara sauce."
         android:textColor="@color/white1"
@@ -237,7 +237,7 @@
         android:id="@+id/textView8"
         android:layout_width="302dp"
         android:layout_height="21dp"
-        android:text="12 frozen fully cooked Italian turkey meatballs, thawed"
+        android:text="12 fully cooked Italian turkey meatballs"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -265,7 +265,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -280,7 +280,7 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="405dp"
+        android:layout_width="375dp"
         android:layout_height="47dp"
         android:text="Step 1. Preheat oven to 425°. Place meatballs in a food processor; pulse until finely chopped. Transfer to a large bowl; stir in cheeses and Italian seasoning."
         android:textColor="@color/white1"
@@ -294,7 +294,7 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 2. Spread about 1/4 cup meatball mixture down center of each tortilla. Roll up tightly. Place in a greased 15x10x1-in. baking pan, seam side down; spritz with cooking spray."
         android:textColor="@color/white1"

@@ -251,7 +251,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -266,7 +266,7 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="413dp"
+        android:layout_width="375dp"
         android:layout_height="64dp"
         android:text="Step 1. In a small bowl, beat cream cheese, confectioners' sugar, sour cream and extract until smooth. Refrigerate until serving. On 6 wooden skewers, alternately thread strawberries, grapes and pineapple. Serve with dip."
         android:textColor="@color/white1"

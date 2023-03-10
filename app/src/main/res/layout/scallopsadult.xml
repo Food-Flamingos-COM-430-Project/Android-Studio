@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="79dp"
         android:text="Step 3. Generously salt and pepper the scallops. Once the butter/oil combo begins to smoke, gently add the scallops, making sure they are not touching. Sear scallops for 1 1/2 minutes on each side - not touching them at all while they're searing. The scallops should have a nice golden crust on each side and be translucent in the center."
         android:textColor="@color/white1"
@@ -251,7 +251,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -266,7 +266,7 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="405dp"
+        android:layout_width="375dp"
         android:layout_height="47dp"
         android:text="Step 1. Remove tiny side muscle from the scallops if they have them, then rinse with cold water and pat dry with a paper towel."
         android:textColor="@color/white1"
@@ -280,7 +280,7 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 2. Add the butter and oil to a large saute pan over high heat."
         android:textColor="@color/white1"

@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView68"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 4. Bake until golden brown, 8-10 minutes. Cool in pans 5 minutes before serving."
         android:textColor="@color/white1"
@@ -20,21 +20,21 @@
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintVertical_bias="0.967" />
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="404dp"
-        android:layout_height="49dp"
+        android:layout_width="376dp"
+        android:layout_height="65dp"
         android:text="Step 3. Remove from heat; stir in biscuit mix, eggs and 1/2 cup bread crumbs. Add macaroni; toss to coat. Spoon about 2 tablespoons macaroni mixture into prepared mini-muffin cups; sprinkle with remaining cheddar cheese and bread crumbs."
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintHorizontal_bias="0.647"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.881" />
+        app:layout_constraintVertical_bias="0.903" />
 
     <TextView
         android:id="@+id/textView64"
@@ -349,7 +349,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -364,7 +364,7 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="405dp"
+        android:layout_width="375dp"
         android:layout_height="47dp"
         android:text="Step 1. Preheat oven to 425°. Cook macaroni according to package directions; drain."
         android:textColor="@color/white1"
@@ -378,7 +378,7 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="411dp"
+        android:layout_width="375dp"
         android:layout_height="72dp"
         android:text="Step 2. Meanwhile, sprinkle 1/4 cup bread crumbs into 36 greased mini-muffin cups. In a large saucepan, melt butter over medium heat. Stir in flour and seasonings until smooth; gradually whisk in milk. Bring to a boil, stirring constantly; cook and stir until thickened, 1-2 minutes. Stir in 1 cup cheddar cheese and Swiss cheese until melted."
         android:textColor="@color/white1"
@@ -388,7 +388,7 @@
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.805" />
+        app:layout_constraintVertical_bias="0.808" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/group"

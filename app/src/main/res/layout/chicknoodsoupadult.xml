@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView73"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 6. Once noodles are cooked, add your chicken back to broth along with salt and pepper. Bring to a boil until everything is heated through."
         android:textColor="@color/white1"
@@ -24,7 +24,7 @@
 
     <TextView
         android:id="@+id/textView72"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 5. Next, add your egg noodles to the broth and bring to a boil."
         android:textColor="@color/white1"
@@ -38,7 +38,7 @@
 
     <TextView
         android:id="@+id/textView71"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 4. Next, add your egg noodles to the broth and bring to a boil."
         android:textColor="@color/white1"
@@ -52,7 +52,7 @@
 
     <TextView
         android:id="@+id/textView67"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 3. Then, remove chicken thighs and shred them or cut them into small pieces. Make sure to leave the bones off."
         android:textColor="@color/white1"
@@ -293,7 +293,7 @@
         android:id="@+id/textView8"
         android:layout_width="260dp"
         android:layout_height="23dp"
-        android:text="Chicken tights"
+        android:text="Chicken thighs"
         android:textColor="@color/white1"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -321,7 +321,7 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="30dp"
         android:text="Directions"
         android:textColor="@color/white1"
@@ -336,7 +336,7 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="405dp"
+        android:layout_width="375dp"
         android:layout_height="47dp"
         android:text="Step 1. In a large dutch oven or soup pot add some olive oil and lightly brown the chicken thighs on each side. Remove from pot and set aside."
         android:textColor="@color/white1"
@@ -350,7 +350,7 @@
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="404dp"
+        android:layout_width="375dp"
         android:layout_height="49dp"
         android:text="Step 2. Add your veggies and lightly sauté. Then, add chicken and chicken broth and bring to a boil until chicken is cooked through."
         android:textColor="@color/white1"
