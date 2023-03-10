@@ -9,20 +9,6 @@
 
 
     <TextView
-        android:id="@+id/textView67"
-        android:layout_width="375dp"
-        android:layout_height="49dp"
-        android:text="Step 2. In a cast-iron or other heavy skillet, heat oil to 375°. Fry sausages, a few at a time, until golden brown, 2-3 minutes. Drain on paper towels. Serve with ketchup and mustard."
-        android:textColor="@color/white1"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.927" />
-
-    <TextView
         android:id="@+id/textView57"
         android:layout_width="260dp"
         android:layout_height="23dp"
@@ -185,10 +171,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342" />
+        app:layout_constraintVertical_bias="0.331" />
 
     <TextView
         android:id="@+id/textView3"
